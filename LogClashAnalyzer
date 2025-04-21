@@ -1,0 +1,23 @@
+
+---
+
+### **3. 32_LogClashAnalyzer**  
+**Description:**  
+Detects conflicting, bursty, or repeated logs and ranks them by severity and frequency.
+
+#### **README.md**
+```markdown
+# LogClashAnalyzer - Repetition & Burst Log Visualizer
+
+LogClashAnalyzer groups similar logs, highlights critical repetition patterns, and visualizes conflict spikes.
+
+## Features
+- Timestamp grouping  
+- Severity-based clustering  
+- CLI filter presets  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_LogClashAnalyzer.git
+cd 32_LogClashAnalyzer
+python analyze.py
