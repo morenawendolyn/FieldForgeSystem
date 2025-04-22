@@ -1,0 +1,23 @@
+
+---
+
+### **2. 32_APILineScanner**  
+**Description:**  
+Scans a line-up of API endpoints, logging availability, latency, and response trends.
+
+#### **README.md**
+```markdown
+# APILineScanner - Endpoint Health Tracker
+
+APILineScanner checks a sequence of APIs and surfaces errors, delays, and timeouts for devops and diagnostics.
+
+## Features
+- Response code + latency logging  
+- Burst / error tracking  
+- Export to CSV or JSON  
+
+## Usage
+```bash
+git clone https://github.com/your-username/32_APILineScanner.git
+cd 32_APILineScanner
+python monitor.py
